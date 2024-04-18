@@ -1,0 +1,48 @@
+.loginPage {
+    background: url('images.jpg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), url('images.jpg'));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+#menu .nav-link {
+    color: white;
+  }
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.empImg {
+  width: 20%;
+  height: 30%;
+}
+.shadow {
+  background-color: aqua;
+}
+
+
+h1{
+  text-align: center;
+  color: forestgreen;
+  margin: 30px 0 50px;
+}
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+   width: 330px;
+   height:250px;
+   padding: 5px;
+   filter: grayscale(100%);
+   transition: 1s;
+}
+.gallery img:hover{
+  filter:grayscale(0);
+  transform: scale(1.1);
+}
